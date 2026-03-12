@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { FiMail, FiGithub, FiLinkedin } from "react-icons/fi";
 
 export default function Contact() {
   return (
@@ -13,17 +13,17 @@ export default function Contact() {
 
       <div className="contact-buttons">
         <a href="mailto:agnihotri.ashishkumar25@gmail.com" className="contact-btn">
-          <Mail className="contact-icon" />
+          <FiMail className="contact-icon" />
           Email
         </a>
 
         <a href="https://github.com/ashucj17" className="contact-btn">
-          <Github className="contact-icon" />
+          <FiGithub className="contact-icon" />
           GitHub
         </a>
 
         <a href="https://linkedin.com/in/YOUR-LINKEDIN" className="contact-btn">
-          <Linkedin className="contact-icon" />
+          <FiLinkedin className="contact-icon" />
           LinkedIn
         </a>
       </div>

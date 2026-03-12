@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
     <section className="hero" id="home">
-
+      <div className="container">
       <div className="hero-glow"></div>
       <div className="hero-glow2"></div>
 
@@ -49,6 +49,7 @@ export default function Hero() {
           </div>
         </div>
 
+      </div>
       </div>
     </section>
   )

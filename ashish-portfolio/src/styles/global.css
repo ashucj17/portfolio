@@ -1010,6 +1010,7 @@ footer {
 .contact-btn svg {
   font-size: 18px;
   display: block;
+  margin-bottom: 5px;
 }
 
 .contact-btn:hover svg{
